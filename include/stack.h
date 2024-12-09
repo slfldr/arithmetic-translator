@@ -38,7 +38,7 @@ public:
         }
     }
 
-    sqVector(const sqVector& t) : sz(t.size), capacity(t.capacity)
+    sqVector(const sqVector& t) : size(t.size), capacity(t.capacity)
     {
         data = new T[capacity];
 
